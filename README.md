@@ -2,6 +2,11 @@
 ## SYNOPSIS
 Script to correlate hostnames in a text file to their switch port/VLAN for each. Script can also generate results for the local machine only.
 
+## REQUIRED MODULES
+[PSDiscoveryProtocol](https://github.com/lahell/PSDiscoveryProtocol)
+
+[PSLogging](https://github.com/9to5IT/PSLogging)
+
 ## SYNTAX
 ```powershell
   ./Get-SwitchPort.ps1 [-local] [[-path] <String>] [[-name] <String>] [[-logSuffix] <String>] [<CommonParameters>]
